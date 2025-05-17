@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 esp-idf-hal = "^0.45"
-esp-idf-sys = "^0.51"
+esp-idf-sys = "^0.36"
 
 [patch.crates-io]
 esp-idf-sys = { git = "https://github.com/esp-rs/esp-idf-sys", branch = "master" }
